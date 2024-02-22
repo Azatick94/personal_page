@@ -1,7 +1,7 @@
 var today = new Date();
-var oldDate = new Date(2021, 7, 21);
+var oldDate = new Date(2023, 10, 1);
 
-var last_job_date_diff = "July 2021 - Present (" + date_diff_calc(oldDate, today) + ")"
+var last_job_date_diff = "October 2023 - Present (" + date_diff_calc(oldDate, today) + ")"
 document.getElementById("dateValue").innerHTML = last_job_date_diff;
 
 function date_diff_calc(d1, d2) {
